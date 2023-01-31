@@ -1,0 +1,52 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      G003998919
+    </ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+
+<div class="display">
+
+<button ion-button full (click) = "OpenSettingsPage()" >Open Settings Page </button>
+<h1> Quote from {{ author }} about : </h1>
+
+<ion-list>
+	<ion-item *ngFor = "let t of tags">
+	<h2> {{t}} </h2>
+	</ion-item>
+</ion-list>
+
+ 
+<h4>  {{ cont }} </h4>
+<h3> CountryID equals {{country_id}} </h3>
+<h3> CountryName equals {{name}} </h3>
+
+
+
+<ion-list>
+	<ion-item *ngFor = "let d of data">
+	<h2> First name : {{d.firstname}} </h2> 
+	<h2> Last name : {{d.lastname}} </h2>
+	<h2> Age : {{d.age }} </h2>
+	<h2> Height :  {{d.height }} </h2>
+	</ion-item>
+</ion-list>
+	 
+
+</div>
+
+
+
+
+
+
+
+
+</ion-content>

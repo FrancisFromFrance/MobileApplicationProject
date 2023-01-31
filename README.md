@@ -15,6 +15,7 @@ As well as this, I was able to learn about the principles of good app design and
     1. Download repository
     2. Run ionic in command prompt with ionic serve and take note of localhost, in my case it was 4200
     3. Go to browser and navigate to the local host, in my case going to http://localhost:4200
+    4. Go into the downlaod repository, go into app and then click app.html.
     
 ### Author
 Francis O Donnell
